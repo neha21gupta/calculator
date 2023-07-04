@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table class="calculator">
+        <tr>
+            <th colspan="4" id="heading">CALCULATOR</th>
+        </tr>
+        <tr>
+            <td colspan="4"><input id="dispaly" type="text"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button class="button" onclick="clear()">C</button></td>
+            <td colspan="2"><button class="button" onclick="calculatePercent()">%</button></td>
+             
+        </tr>
+        <tr>
+            <td><button class="button" onclick="displayvalue('7')">7</button></td>
+            <td><button class="button" onclick="displayvalue('8')">8</button></td>
+            <td><button class="button" onclick="displayvalue('9')">9</button></td>
+            <td><button class="button" onclick="displayvalue('*')">*</button></td>
+        </tr>
+        <tr>
+            <td><button class="button" onclick="displayvalue('4')">4</button></td>
+            <td><button class="button" onclick="displayvalue('5')">5</button></td>
+            <td><button class="button" onclick="displayvalue('6')">6</button></td>
+            <td><button class="button" onclick="displayvalue('-')">-</button></td>  
+        </tr>
+        <tr>
+            <td><button class="button" onclick="displayvalue('1')">1</button></td>
+            <td><button class="button" onclick="displayvalue('2')">2</button></td>
+            <td><button class="button" onclick="displayvalue('3')">3</button></td>
+            <td><button class="button" onclick="displayvalue('+')">+</button></td>  
+        </tr>
+        <tr>
+            <td><button class="button" onclick="displayvalue('0')">0</button></td>
+            <td><button class="button" onclick="displayvalue('.')">.</button></td>
+            <td><button class="button" onclick="calculate()">=</button></td>
+            <td><button class="button" onclick="displayvalue('/')">/</button></td>  
+        </tr>
+        
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>
